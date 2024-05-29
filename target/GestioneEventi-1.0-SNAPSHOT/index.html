@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #CAE7DF;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #FFF6DD;
+            border-radius: 8px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #CAE7DF;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #B3D6C2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Benvenuto</h1>
+        <p>Desideri inserire o cercare un evento?</p>
+        <form action="inserimento_eventi.jsp">
+            <button class="btn" type="submit">Inserire</button>
+        </form>
+        <br>
+        <form action="ricerca_eventi.jsp">
+            <button class="btn" type="submit">Cercare</button>
+        </form>
+    </div>
+</body>
+</html>
